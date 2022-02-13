@@ -14,6 +14,7 @@ using inv() function find the inv of matrix
 ### Step 5:
 Display the inverse of matrix using print() function
 ## PROGRAM:
+```
 import numpy as np
 no_of_col,no_of_row=int(input()),int(input())
 l1,l2=[],[]
@@ -25,6 +26,7 @@ for i in range(no_of_row):
 print(l2)
 inv=np.linalg.inv(l2)
 print(inv)
+```
 ## OUTPUT:
 ![output](inverseofmatrix.jpg)
 ## RESULT:
